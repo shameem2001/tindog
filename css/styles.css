@@ -1,0 +1,146 @@
+body{
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+#title{
+  background-color: #ff4c68;
+  color: white;
+}
+.heading1{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.5;
+}
+.container-fluid {
+  padding: 2% 7% 15%;
+}
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-weight: 900;
+  font-size: 5.5rem;
+}
+.navbar {
+  margin:1rem 9rem 4.5rem 9rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+.row {
+  padding-left: 10%;
+  padding-right: 8%;
+}
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+.title-image{
+  position: absolute;
+  width:60%;
+  transform: rotate(25deg);
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+#features{
+  position: relative;
+  background-color: white;
+  padding: 5% 15% 0 10%;
+}
+.icon{
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover{
+  color: #ff4c68;
+}
+.feature-box{
+  text-align: center;
+  padding: 5%;
+}
+
+#testimonials{
+  background-color: #ef8172;
+  padding:7% 15%;
+  text-align: center;
+  color: #fff;
+}
+
+
+.image-testimonials{
+  width: 10%;
+  border-radius: 100%;
+  margin-left: 20px;
+  margin-right: 3px;
+}
+.carousel-item{
+  padding: 7% 15%;
+}
+h2{
+  font-family: "Montserrat";
+  font-size: 5rem;
+  font-weight: 900;
+  line-height: 2;
+}
+h3{
+  font-family: "Montserrat";
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+#press{
+  text-align: center;
+  background-color: #ef8172;
+  padding-bottom: 3%;
+}
+
+p{
+  color: #8f8f8f;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+#pricing{
+  padding:100px;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3% 2%;
+}
+
+#cta{
+  padding: 3% 0;
+  text-align: center;
+  background-color: #ff4c68;
+  padding:5% 0;
+}
+.cta-heading{
+  font-family: "Montserrat";
+  font-weight: 900;
+  font-size: 3.5rem;
+  color: #fff;
+
+}
+#footer{
+  text-align: center;
+  background-color: white;
+}
+.footer-para{
+  padding: 2% 0;
+  color: #8f8f8f;
+}
+.icons{
+  padding:5% 2% 0 2%;
+  color: Black;
+}
